@@ -509,6 +509,11 @@ FOOTER DESKTOP
   /* ===========================================
         SECTION 1 STARTS!!
 ======================================= */
+body{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
   .home-section {
     display: flex;
     flex-direction: column;
@@ -550,7 +555,7 @@ FOOTER DESKTOP
     z-index: -10;
     position: absolute;
     top: 9.3rem;
-    border-radius: 3rem;
+    /* border-radius: 3rem; */
   }
   .section-home .intro .intro-btn {
     /* width: 10rem; */
@@ -580,9 +585,14 @@ FOOTER DESKTOP
   .section2 {
     margin-top: 7rem;
     /* position:relative; */
+    /* background-image: url("images/graphic-img1.png"); */
+    /* background-repeat: no-repeat;
+    background-position:left ;
+    background-size:cover;
+    backdrop-filter: opacity(90%); */
   }
   .section2 .graphic-img1 {
-    height: 203vh;
+    width: 100%;
     z-index: -10;
     position: absolute;
     left: 0;
@@ -629,34 +639,40 @@ FOOTER DESKTOP
           SECTION 3 STARTS!!
   ======================================= */
   .section3 {
-    margin-top: 7rem;
-    margin-bottom: 7rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
   .section3 .graphic-img2 {
-    width: 100vw;
+    width: 100%;
     z-index: -10;
     position: absolute;
     opacity: 0.3;
   }
   .section3 .details-section {
     /* width: 90%; */
-    margin: 2rem 12rem;
+    flex-direction: column;
+    margin: 1rem 1rem;
     display: flex;
-    /* flex-direction: row; */
-    grid-area: 2rem;
     justify-content: space-around;
   }
   .section3 .details-section .section3-row {
-    width: 50%;
+    width: 90%;
   }
   .section3 .success-img img {
     /* position: relative; */
     width: 70%;
-    margin: 2rem 3rem;
+    margin: 2rem ;
+    
+  }
+  .section3 .success-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   .section3 .details-section .sub-section {
     /* width: 80%; */
-    padding: 1rem 3rem;
+    padding: 1rem 1rem;
     margin: 1rem auto;
     text-align: center;
   }
@@ -693,14 +709,15 @@ FOOTER DESKTOP
   }
   .section4 .details-section {
     /* width: 90%; */
-    margin: 2rem 15rem;
+    margin: 2rem 1rem;
     display: flex;
     /* flex-direction: row; */
     grid-area: 2rem;
     justify-content: space-around;
+    flex-direction: column;
   }
   .section4 .details-section .section4-row {
-    width: 50%;
+    width: 90%;
   }
   .section4 .success-img img {
     /* position: relative; */
