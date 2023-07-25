@@ -30698,57 +30698,100 @@
       href="https://spet-gatsby.envytheme.com/page-data/app-data.json"
       crossorigin="anonymous"
     />
-  </head>
-  <body>
-    <div id="___gatsby">
-      <div style="outline: none" tabindex="-1" id="gatsby-focus-wrapper">
-        <header
-          id="header"
-          class="headroom"
-          style="background-color: #fffffff9; padding-bottom: 15px"
-        >
-          <div class="startp-nav">
-            <div class="container">
-              <nav class="navbar navbar-expand-md navbar-light">
-                <a class="navbar-brand" href="../../../i/index.html"
-                  ><img src="../icons/logoNoBg.png" style="height: 40px" /></a
-                ><button
-                  class="navbar-toggler navbar-toggler-right collapsed"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="icon-bar top-bar"></span
-                  ><span class="icon-bar middle-bar"></span
-                  ><span class="icon-bar bottom-bar"></span>
-                </button>
-                <div
-                  class="collapse navbar-collapse"
-                  id="navbarSupportedContent"
-                >
-                  <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                      <a class="nav-link" href="../../../i/index.html">Home </a>
-                    </li>
-
-                    <li class="nav-item">
-                      <a class="nav-link" href="../../../i/index.html#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#footer">Contact</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="others-option">
-                  <a class="btn btn-light" href="/vip">V I P</a>
-                </div>
-              </nav>
+  
+    <style>
+      /* Custom CSS styles for the mobile navigation */
+  /* Show the collapsed button on mobile view */
+  .navbar-toggler {
+    border: none;
+    background: transparent;
+  }
+  
+  /* Hide the button icon bars on mobile view */
+  .navbar-toggler .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    margin-bottom: 3px;
+    position: relative;
+    background-color: #333;
+  }
+  
+  /* Style the collapsed button icon bars on mobile view */
+  .navbar-toggler .icon-bar:nth-child(2) {
+    width: 17px;
+  }
+  
+  /* Hide the collapsed navigation list by default */
+  .collapse.navbar-collapse {
+    display: block;
+  }
+  
+  /* Show the navigation list on mobile view when the button is clicked */
+  .navbar-toggler.collapsed + .navbar-collapse {
+    display: none;
+  }
+  
+    </style>
+    </head>
+    <body>
+      <div id="___gatsby">
+        <div style="outline: none" tabindex="-1" id="gatsby-focus-wrapper">
+          <header
+            id="header"
+            class="headroom"
+            style="background-color: #fffffff9; padding-bottom: 15px"
+          >
+            <div class="startp-nav">
+              <div class="container">
+                <nav class="navbar navbar-expand-md navbar-light">
+                  <a class="navbar-brand" href="../../../i/index.html"
+                    ><img src="../icons/logoNoBg.png" style="height: 40px" /></a
+                  ><button
+                    class="navbar-toggler navbar-toggler-right collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="icon-bar top-bar"></span
+                    ><span class="icon-bar middle-bar"></span
+                    ><span class="icon-bar bottom-bar"></span>
+                  </button>
+                  <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                  >
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" href="../../../i/index.html">Home </a>
+                      </li>
+  
+                      <li class="nav-item">
+                        <a class="nav-link" href="../../../i/index.html#about">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#footer">Contact</a>
+                      </li>
+                      <li class="nav-item d-md-none mob-nav-apply">
+                        <a class="nav-link" href="../vip/vip.html">Apply</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="others-option">
+                    <a class="btn btn-light" href="../vip/vip.html">V I P</a>
+                    <!-- <a
+                      class="btn btn-primary"
+                      href="https://spet-gatsby.envytheme.com/login"
+                      >VIP</a
+                    > -->
+                  </div>
+                </nav>
+              </div>
             </div>
-          </div>
-        </header>
+          </header>
         <div class="page-title-area" style="bottom:30px">
           <div class="d-table">
             <div class="d-table-cell">
@@ -31054,7 +31097,7 @@
                       <a href="#footer">Contact us</a>
                     </li>
                     <li>
-                      <a href="">VIP</a>
+                      <a href="#vip">VIP</a>
                     </li>
                   </ul>
                 </div>
@@ -31097,18 +31140,21 @@
                         target="_blank"
                         rel="noreferrer"
                         ><svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 32 32"
-  fill="none"
-  stroke="#6084a4" 
-  stroke-width="1.5"
-  style="margin-right: 10px"
->
-  <path d="M24.687,30.163c-0.402,0-0.843-0.132-1.32-0.395l-10.803-7.976c-0.121-0.089-0.195-0.228-0.203-0.378    c-0.007-0.15,0.053-0.295,0.165-0.396L25.322,9.503c0.205-0.185,0.521-0.169,0.706,0.037c0.185,0.205,0.168,0.521-0.037,0.706    l-12.34,11.106l10.254,7.576c0.271,0.145,0.729,0.329,1.055,0.178c0.332-0.152,0.496-0.637,0.576-1.017l4.375-20.617    c0.17-0.681,0.088-1.229-0.215-1.481c-0.231-0.192-0.575-0.206-0.947-0.038L3.033,15.871C2.244,16.188,1.996,16.514,2,16.622    c0.003,0.071,0.173,0.267,0.68,0.422l6.375,1.99l6.999-4.416c0.234-0.146,0.542-0.077,0.689,0.156    c0.147,0.233,0.078,0.542-0.156,0.689l-7.194,4.539C9.269,20.08,9.116,20.1,8.977,20.057l-6.592-2.058    c-1.17-0.358-1.37-0.99-1.384-1.335c-0.02-0.473,0.253-1.157,1.667-1.723l25.695-9.908c0.697-0.318,1.445-0.25,1.974,0.191    c0.613,0.511,0.813,1.413,0.549,2.474l-4.371,20.598c-0.184,0.878-0.566,1.457-1.137,1.719    C25.163,30.114,24.933,30.163,24.687,30.163z" 
-/>
-</svg>
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          style="margin-right: 10px"
+                        >
+                          <path
+                            d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                          ></path>
+                        </svg>
                         Telegram</a
                       >
                     </li>
@@ -31412,6 +31458,11 @@
         ],
       }; /*]]>*/
     </script>
+     <!-- Add the Bootstrap JS scripts (jQuery is required for Bootstrap) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
     <script src="../polyfill-2a74e76bf3a4aaf25439.js" nomodule=""></script>
     <script
       src="../component---src-pages-services-5-js-d551c6dae8ee1e0df956.js"
