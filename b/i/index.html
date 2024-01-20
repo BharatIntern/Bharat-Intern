@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- Mirrored from spet-gatsby.envytheme.com/it-startup/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 Jul 2023 21:34:21 GMT -->
   <head>
     <meta name="google-adsense-account" content="ca-pub-7614767999716149">
     <meta charset="utf-8" />
@@ -10,10 +11,55 @@
     />
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7614767999716149"
      crossorigin="anonymous"></script>
+    
+    
+    <!-- 0000000 CSS 000000000 -->
+    <style>
+    
+.video-container {
+    margin: auto;
+    position: relative;
+    padding-bottom: 35%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top:30%;
+}
+
+.video-container iframe {
+  margin:auto;
+    position: absolute;
+    top:2%;
+    width: 50%;
+    height: 50%;
+} 
+/* Default styles for larger screens */
+iframe {
+    width: 560px;
+    height: 315px;
+}
+
+/* Media query for screens with a maximum width of 767px (typical for mobile devices) */
+@media only screen and (max-width: 767px) {
+    iframe {
+        width: 97%; /* Set the width to 100% for better responsiveness on smaller screens */
+        height: 250px; /* Maintain the aspect ratio */
+    }
+}
+
+}
+
+  </style>
     <style
       data-href="/styles.b58fa5dfa265f3102297.css"
       data-identity="gatsby-global-css"
     >
+    
       @charset "UTF-8";
       @import url(https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i); /*!
 * Bootstrap v5.1.1 (https://getbootstrap.com/)
@@ -31169,7 +31215,7 @@
                   <h2>About Us</h2>
                   <div class="bar"></div>
                   <p>
-                    At Bharat Intern, we are a privately-owned company, passionate about empowering
+                    At Bharat Intern, we are passionate about empowering
                     innovations that shape a better future for businesses and
                     individuals alike.
                   </p>
@@ -31599,6 +31645,24 @@
             </div>
           </div>
         </div>
+
+        <!-- 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 -->
+        
+        <div class="pricing-area pt-80 pb-80 mb-0 bg-f9f6f6">
+          <div class="video-box" style="text-align: center;">
+            <div class="section-title">
+              <h2>YouTube Channel</h2>
+              <div class="bar"></div>
+            </div>
+            <iframe id="youtube-iframe"  style="text-align: center; " frameborder="0" allowfullscreen></iframe>
+            <!-- <div class="video-container" style="text-align: center">
+            </div> -->
+            </div>
+          </div>
+          
+
+
+
         <div class="features-area pt-80 pb-50 bg-f7fafd">
           <div class="container">
             <div class="section-title">
@@ -31775,19 +31839,19 @@
             <div class="row">
               <div class="col-lg-4 col-md-3 col-6">
                 <div class="funfact">
-                  <h3>160K+</h3>
+                  <h3>33K+</h3>
                   <p>LinkedIn<br>community</p>
                 </div>
               </div>
               <div class="col-lg-4 col-md-3 col-6">
                 <div class="funfact">
-                  <h3>100K+</h3>
+                  <h3>23K+</h3>
                   <p>Telegram <br>community</p>
                 </div>
               </div>
               <div class="col-lg-4 col-md-12 col-12">
                 <div class="funfact">
-                  <h3>3M+</h3>
+                  <h3>1M+</h3>
                   <p>Website Traffic<br>per month</p>
                 </div>
               </div>
@@ -32043,7 +32107,21 @@
       data-cfasync="false"
       src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
     ></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          // Replace 'VIDEO_IDS' with an array of YouTube video IDs
+          var videoIds = ['LrEM9hUrLHI', 'jp5j0AcaoLU', 'suEG3JcDvK8', 'zeNT3E9y5zA'];
 
+          // Choose a random video ID
+          var randomVideoId = videoIds[Math.floor(Math.random() * videoIds.length)];
+
+          // Construct the YouTube video URL with autoplay and mute
+          var youtubeUrl = "https://www.youtube.com/embed/" + randomVideoId + "?autoplay=0&mute=1";
+
+          // Set the iframe src attribute
+          document.getElementById("youtube-iframe").src = youtubeUrl;
+      });
+  </script>
     <script id="gatsby-script-loader">
       /*<![CDATA[*/ window.pagePath = "index.html"; /*]]>*/
     </script>
@@ -32251,4 +32329,5 @@
     <script src="../framework-1962f46ddf4a3dfbd9be.js" async=""></script>
     <script src="../webpack-runtime-e21b2383f955aa703d7e.js" async=""></script>
   </body>
+  <!-- Mirrored from spet-gatsby.envytheme.com/it-startup/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 Jul 2023 21:34:47 GMT -->
 </html>
